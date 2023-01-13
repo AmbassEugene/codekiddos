@@ -1,0 +1,284 @@
+
+body{
+  background-color: #fafafa;
+  width: 100vw;
+}
+.navbar{
+  width: 100vw;
+  /* height: 80px; */
+  box-shadow: 0 0 12px rgb(0 0 0 / 10%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: inherit;
+
+}
+
+.logo-div{
+  border: 1px solid #e10034;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.logo-text{
+  /* font-family: 'Anton',sans-serif; */
+  font-family: 'Averia Sans Libre', cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #0034e1;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px #0034e1;
+  font-size: 20px;
+}
+
+.cta-btn{
+  padding: 10px 15px;
+  border: none;
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  font-size: 24px;
+  background-color: #e1ad01;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-btn:hover{
+  box-shadow: 0 0 12px rgb(0 0 0 / 10%);
+}
+.container{
+  /* width: 80vw; */
+  /* margin: auto; */
+  /* padding: 20px; */
+  /* margin-top: 100px; */
+}
+.width-80{
+  width: 80vw;
+  margin: auto;
+}
+
+section{
+  margin-top: 10vh;
+}
+
+.jumbotron{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.jumbotron-text h1{
+  font-family: 'Averia Sans Libre';
+  font-size: 8vh;
+  line-height: 10vh;
+  /* width: 40%; */
+}
+
+.jumbotron-text-par{
+  margin-left: 50px;
+}
+
+.title-image{
+  width: 380px;
+  height: 350px;
+}
+
+.heading-subtitle{
+  font-family: 'Averia Sans Libre';
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+h3.section-title{
+  font-size: 2.5rem;
+  font-family: 'Averia Sans Libre';
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/**********
+ Who are we 
+***********/
+
+.who-are-we{
+  background-color: #e1ad01;
+  /* background-color: rgba(0, 225, 173, 0.9); */
+}
+
+.container-content{
+  padding: 6em 0;
+}
+
+.who-are-we p{
+  text-align: center;
+}
+
+.card-section{
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 3rem; */
+  width: 80%;
+  margin: 5rem auto 0;
+}
+
+.card-container{
+  text-align: center;
+  padding: 20px;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 4px 2px rgb(0 0 0 / 8%);
+  /* background-color: #00e1ad; */
+  background-color: #e1ad01;
+  font-family: 'Averia Sans Libre';
+  /* color: #fafafa */
+}
+
+.card-container:hover{
+  box-shadow: 0 2px 4px 2px rgb(0 0 0 / 18%);
+}
+
+.card-img-div{
+  /* width: 70%; */
+  margin: 30px auto;
+
+}
+
+.card-img-div img{
+  width: 150px;
+  height: 150px;
+}
+
+.card-button{
+  border: none;
+  padding: 10px 20px;
+  border-radius: 1em;
+  cursor: pointer;
+  font-family: 'Averia Sans Libre';
+  font-size: 1em;
+  font-weight: bold;
+  box-shadow: 0 2px 4px 2px rgb(0 0 0 / 15%);
+}
+
+.card-button:hover{
+  box-shadow: 0 2px 4px 2px rgb(0 0 0 / 10%);
+}
+
+.card-button.white, .card-container.white{
+  background-color: #fafafa;
+  /* color: #e1ad01; */
+}
+.card-button.blue, .card-container.blue{
+  background-color: #0034e1;
+  color: #fafafa;
+}
+.card-button.red, .card-container.red{
+  background-color: #e10034;
+  color: #fafafa;
+}
+.card-button.green, .card-container.green{
+  background-color: #00e1ad;
+}
+
+/* quotes */
+.quotes{
+  margin-top: 0;
+  background-image: url("/images/tech-bgi.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote-content{
+  width: 70%;
+  margin: auto;
+  font-size: 2em;
+  font-family: 'Averia Sans Libre';
+  font-style: italic;
+  text-align: justify;
+}
+.quote-content blockquote{
+  line-height: 1.5em;
+}
+
+.what-to-learn{
+  margin-top: 0;
+  background-color: #0034e1;
+  padding: 6em 0;
+}
+.what-to-learn .section-title{
+  color: #fafafa;
+}
+
+.what-to-learn .content{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.what-to-learn .content-list{
+  background-color: #fafafa;
+  padding: 0.8em 1em;
+  border-radius: 1.3em;
+  display: flex;
+  width: 28%;
+  /* justify-content: center; */
+  align-items: center;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.what-to-learn .sub-title{
+  margin-left: 20px;
+  font-family: 'Averia Sans Libre';
+}
+
+
+/* Get-in-touch */
+.get-in-touch .heading-subtitle{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.get-in-touch .form{
+  width: 50vw;
+  margin: 3em auto 3em;
+  padding-left: 10em;
+  /* background-color: pink; */
+}
+
+.get-in-touch .input-group{
+  margin-bottom: 15px;
+
+}
+
+.get-in-touch .form .label{
+  display: block;
+  font-family: 'Averia Sans Libre';
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.get-in-touch .form .input-group input, .get-in-touch .form textarea {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  font-size: 1.2em;
+  font-family: 'Averia Sans Libre';
+  border-radius: 1em;
+  border: 2px solid #e1ad01;
+}
+
+.get-in-touch .form .input-group input{
+  text-transform: capitalize;
+}
+
+textarea{
+  height: 5em;
+}
+
