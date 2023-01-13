@@ -45,12 +45,7 @@ body{
 .cta-btn:hover{
   box-shadow: 0 0 12px rgb(0 0 0 / 10%);
 }
-.container{
-  /* width: 80vw; */
-  /* margin: auto; */
-  /* padding: 20px; */
-  /* margin-top: 100px; */
-}
+
 .width-80{
   width: 80vw;
   margin: auto;
@@ -71,7 +66,6 @@ section{
   font-family: 'Averia Sans Libre';
   font-size: 8vh;
   line-height: 10vh;
-  /* width: 40%; */
 }
 
 .jumbotron-text-par{
@@ -96,9 +90,7 @@ h3.section-title{
   margin-bottom: 50px;
 }
 
-/**********
- Who are we 
-***********/
+/********** Who are we ***********/
 
 .who-are-we{
   background-color: #e1ad01;
@@ -178,7 +170,8 @@ h3.section-title{
   background-color: #00e1ad;
 }
 
-/* quotes */
+/******** quotes **********/
+
 .quotes{
   margin-top: 0;
   background-image: url("/images/tech-bgi.webp");
@@ -237,8 +230,8 @@ h3.section-title{
   font-family: 'Averia Sans Libre';
 }
 
+/******** Get-in-touch **********/
 
-/* Get-in-touch */
 .get-in-touch .heading-subtitle{
   text-align: center;
   font-size: 1.5em;
@@ -282,3 +275,10 @@ textarea{
   height: 5em;
 }
 
+/******* Media Queries ********/
+
+/* TODO: create a new stylesheet and then start designing from mobile up.  */
+
+@media (max-width)  {
+  
+}
