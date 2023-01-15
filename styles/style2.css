@@ -1,0 +1,232 @@
+body {
+  background-color: #fafafa;
+
+}
+
+/***** Navbar  ******/
+.navbar {
+  box-shadow: 0 0 12px rgb(0 0 0 / 10%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo-div {
+  border: 1px solid #e10034;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 12px rgb(0 0 0 / 20%);
+}
+
+.logo-text {
+  font-family: 'Averia Sans Libre', cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #0034e1;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px #0034e1;
+  font-size: 15px;
+}
+
+.cta-btn {
+  padding: 6px 15px;
+  border: none;
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  font-size: 18px;
+  background-color: #e1ad01;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgb(0 0 0 / 20%);
+}
+
+.cta-btn:hover {
+  box-shadow: 0 0 12px rgb(0 0 0 / 25%);
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  flex-direction: column-reverse;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.jumbotron-text h1 {
+  font-family: 'Averia Sans Libre';
+  font-size: 2.5em;
+  margin-top: 20px;
+  line-height: 1.2em;
+}
+
+.jumbotron-text .title-space {
+  padding-left: 15px;
+}
+
+.jumbotron-image{
+  width: 100%;
+  margin: auto;
+}
+
+.title-image {
+  width: 100%;
+  height: auto;
+}
+
+.heading-subtitle {
+  font-family: 'Averia Sans Libre';
+  font-size: 1em;
+  margin: 20px 0;
+}
+
+h3.section-title {
+  font-size: 2.5rem;
+  font-family: 'Averia Sans Libre';
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/********** Who are we ***********/
+
+.who-are-we {
+  background-color: #e1ad01;
+}
+
+.container-content {
+  padding: 5em 15px;
+}
+
+.who-are-we p {
+  text-align: center;
+  line-height: 1.2em;
+  font-size: 1.2rem;
+}
+
+.card-section{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.card-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 4px 2px rgb(0 0 0 / 8%);
+  background-color: #e1ad01;
+  font-family: 'Averia Sans Libre';
+  margin: 10px 10px 20px;
+}
+
+.card-container:hover {
+  box-shadow: 0 2px 4px 2px rgb(0 0 0 / 18%);
+}
+
+.card-img-div {
+  width: 150px;
+  height: 150px;
+  margin: 30px auto;
+}
+
+.card-img-div img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 1em;
+  cursor: pointer;
+  font-family: 'Averia Sans Libre';
+  font-weight: bold;
+  box-shadow: 0 2px 4px 2px rgb(0 0 0 / 15%);
+}
+
+.card-button:hover {
+  box-shadow: 0 2px 4px 2px rgb(0 0 0 / 10%);
+}
+
+.card-button.white,
+.card-container.white {
+  background-color: #fafafa;
+  /* color: #e1ad01; */
+}
+
+.card-button.blue,
+.card-container.blue {
+  background-color: #0034e1;
+  color: #fafafa;
+}
+
+.card-button.red,
+.card-container.red {
+  background-color: #e10034;
+  color: #fafafa;
+}
+
+.card-button.green,
+.card-container.green {
+  background-color: #00e1ad;
+}
+
+
+/******** quotes **********/
+
+.quotes {
+  margin-top: 0;
+  background-image: url("/images/tech-bgi.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2em;
+}
+
+.quote-content {
+  /* width: 70%; */
+  /* margin: auto; */
+  font-size: 1.1em;
+  font-family: 'Averia Sans Libre';
+  font-style: italic;
+  text-align: justify;
+}
+
+.quote-content blockquote {
+  line-height: 1.5em;
+}
+
+/******** What to learn **********/
+
+.what-to-learn{
+  background-color: #0034e1;
+  padding: 6em 0;
+  font-family: 'Averia Sans Libre';
+}
+
+.what-to-learn .section-title {
+  color: #fafafa;
+}
+
+
+
+.content-list{
+  background-color: pink;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.content-list .content-list-img-div{
+  margin-right: 10px;
+  
+}
+
+
+

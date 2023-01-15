@@ -1,10 +1,10 @@
 
 body{
   background-color: #fafafa;
-  width: 100vw;
+  /* width: 100vw; */
 }
 .navbar{
-  width: 100vw;
+  /* width: 100vw; */
   /* height: 80px; */
   box-shadow: 0 0 12px rgb(0 0 0 / 10%);
   display: flex;
@@ -22,7 +22,6 @@ body{
 }
 
 .logo-text{
-  /* font-family: 'Anton',sans-serif; */
   font-family: 'Averia Sans Libre', cursive;
   text-transform: uppercase;
   font-weight: bold;
@@ -45,6 +44,7 @@ body{
 .cta-btn:hover{
   box-shadow: 0 0 12px rgb(0 0 0 / 10%);
 }
+
 
 .width-80{
   width: 80vw;
@@ -195,6 +195,8 @@ h3.section-title{
   line-height: 1.5em;
 }
 
+/******** What to learn **********/
+
 .what-to-learn{
   margin-top: 0;
   background-color: #0034e1;
@@ -219,7 +221,6 @@ h3.section-title{
   border-radius: 1.3em;
   display: flex;
   width: 28%;
-  /* justify-content: center; */
   align-items: center;
   font-size: 1.5em;
   margin-bottom: 20px;
