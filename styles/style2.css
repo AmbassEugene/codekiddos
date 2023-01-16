@@ -1,6 +1,5 @@
 body {
   background-color: #fafafa;
-
 }
 
 /***** Navbar  ******/
@@ -212,10 +211,18 @@ h3.section-title {
   color: #fafafa;
 }
 
+.what-to-learn .content{
+
+}
+
+.content .container-list{
+  background-color: #fff;
+}
+
 
 
 .content-list{
-  background-color: pink;
+  background-color: #00e1ad;
   margin: 10px;
   display: flex;
   align-items: center;
@@ -225,8 +232,59 @@ h3.section-title {
 
 .content-list .content-list-img-div{
   margin-right: 10px;
-  
 }
+
+
+/******** Get-in-touch **********/
+
+.get-in-touch{
+  margin-top: 3em;
+  padding: 20px;
+  font-family: 'Averia Sans Libre';
+}
+
+.get-in-touch .heading-subtitle {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.get-in-touch .form{
+  margin-bottom: 20px;
+  padding-left: 25px;
+}
+
+.get-in-touch .input-group {
+  margin-bottom: 15px;
+
+}
+
+.get-in-touch .form .label {
+  display: block;
+  font-family: 'Averia Sans Libre';
+  font-size: 1.1em;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.get-in-touch .form .input-group input,
+.get-in-touch .form textarea {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  font-size: 1em;
+  font-family: 'Averia Sans Libre';
+  border-radius: 1em;
+  border: 2px solid #e1ad01;
+}
+
+.get-in-touch .form .input-group input {
+  text-transform: capitalize;
+}
+
+textarea {
+  height: 5em;
+}
+
 
 
 
