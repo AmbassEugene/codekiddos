@@ -211,10 +211,6 @@ h3.section-title {
   color: #fafafa;
 }
 
-.what-to-learn .content{
-
-}
-
 .content .container-list{
   background-color: #fff;
 }
@@ -285,6 +281,167 @@ textarea {
   height: 5em;
 }
 
+/******** Tablet screen ***********/
+@media (min-width: 481px) {
 
+  .navbar{
+    padding: 15px 20px;
+  }
+
+  .logo-div {
+    padding: 6px;
+  }
+  .logo-text{
+    font-size: 20px;
+  }
+
+  .cta-btn {
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+
+  .jumbotron-image{
+    width: 80%;
+  }
+
+  .jumbotron-text{
+    text-align: center;
+  }
+
+  .jumbotron-text .title br{
+    display: none;
+  }
+
+ .title-space{
+    padding-right: 15px;
+  }
+  .jumbotron-text .heading-subtitle br{
+    margin: 0px;
+  }
+
+  /********** Who are we ***********/
+  .who-are-we .container-content {
+    width: 80%;
+    margin: auto;
+  }
+
+  .who-are-we p{
+    line-height: 1.3em;
+    margin-bottom: 25px;
+  }
+
+  .quote-content{
+    font-size: 1.5em;
+  }
+
+  .what-to-learn .section-title {
+    margin-bottom: 2em;
+  }
+  .what-to-learn .content {
+    margin: auto;
+    width: 80%;
+  }
+
+  .content-list {
+    font-size: 1.3em;
+  }
+
+  .get-in-touch .content{
+    width: 80%;
+    margin: auto;
+  }
+  .get-in-touch .form {
+    margin-left: 3em;
+  }
+  .get-in-touch .form .label {
+    font-size: 1.3em;
+  }
+}
+
+/***** Media Query for Tablets Ipads portrait mode *****/
+@media (min-width: 767px) {
+  .jumbotron {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+    margin-bottom: 30px;
+    width: 80%;
+  }
+
+  .jumbotron-text {
+    text-align: left;
+  }
+
+  .jumbotron-text .heading-subtitle {
+    width: 90%;
+  }
+
+  .jumbotron-text .title br {
+    display: block;
+  }
+
+  .who-are-we .container-content {
+    width: 85%;
+    margin: auto;
+  }
+
+  .card-container {
+    margin: 10px 25px 20px;
+  }
+
+  .quote-content {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+
+/******** Media Query for Laptops and Desktops ******/
+@media (min-width: 1024px) {
+  .jumbotron{
+    align-items: center;
+    /* background-color: purple; */
+  }
+  .jumbotron-text .title {
+    font-size: 4.8em;
+    list-style: 3em;
+  }
+
+  .jumbotron-text .heading-subtitle {
+    font-size: 1.6em;
+    line-height: 1.5em;
+    width: 90%;
+  }
+
+  .jumbotron-image {
+    width: 30%;
+    /* background-color: purple; */
+  }
+
+  .who-are-we .container-content {
+    width: 80%;
+    margin: auto;
+  }
+
+  .who-are-we .heading-subtitle{
+    font-size: 1.6em;
+  }
+
+  .who-are-we .card-section {
+    width: 90%;
+    margin: auto;
+  }
+
+  .who-are-we .card-section{
+    font-size: 1.3em;
+  }
+  .who-are-we .card-button{
+    /* font-size: 0.7em; */
+  }
+
+}
 
 
